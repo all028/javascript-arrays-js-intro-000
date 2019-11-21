@@ -14,3 +14,10 @@ function destructivelyAddElementToBeginningOfArray(paramArray, paramElement){
 
   return paramArray;
 }
+
+
+function accessElementInArray(paramArray, paramIndex){
+  
+
+  return paramArray[paramIndex];
+}
