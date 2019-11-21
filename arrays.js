@@ -45,3 +45,9 @@ function destructivelyRemoveElementFromEndOfArray(paramArray){
    paramArray.pop();
    return paramArray;
 }
+
+function removeElementFromEndOfArray(paramArray){
+   copyArray = [...paramArray]
+   copyArray.pop();
+   return copyrray;
+}
