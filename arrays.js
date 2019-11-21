@@ -18,8 +18,15 @@ function accessElementInArray(paramArray, paramIndex){
   return paramArray[paramIndex];
 }
 
+function destructivelyRemoveElementFromBeginningOfArray(paramArray){
+
+  paramArray.shift();
+  return paramArray;
+}
+
+/*
 function addElementToEndOfArray(paramArray, paramIndex){
   copiedArray = [...paramArray]
   copiedArray.push()
   return copiedArray;
-}
+}*/
