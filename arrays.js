@@ -31,6 +31,6 @@ function destructivelyRemoveElementFromBeginningOfArray(paramArray){
 }
 
 function destructivelyAddElementToEndOfArray(paramArray){
- paramArray.push();
+ paramArray.push('foo');
   return paramArray;
 }
