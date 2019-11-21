@@ -17,7 +17,7 @@ function destructivelyAddElementToBeginningOfArray(paramArray, paramElement){
 
 
 function accessElementInArray(paramArray, paramIndex){
-  
+
 
   return paramArray[paramIndex];
 }
