@@ -29,6 +29,3 @@ function destructivelyRemoveElementFromBeginningOfArray(paramArray){
   paramArray.shift();
   return paramArray;
 }
-
-
-
