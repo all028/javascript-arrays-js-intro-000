@@ -29,3 +29,8 @@ function destructivelyRemoveElementFromBeginningOfArray(paramArray){
   paramArray.shift();
   return paramArray;
 }
+
+function destructivelyAddElementToEndOfArray(paramArray){
+ paramArray.push();
+  return paramArray;
+}
