@@ -40,3 +40,8 @@ function removeElementFromBeginningOfArray(paramArray){
   copyArray.shift();
   return copyArray;
 }
+
+function destructivelyRemoveElementFromEndOfArray(paramArray){
+   paramArray.pop();
+   return paramArray;  
+}
