@@ -8,6 +8,12 @@ function addElementToBeginningOfArray(paramArray, paramElement){
   return copiedArray;
 }
 
+function addElementToEndOfArray(paramArray, paramIndex){
+  copiedArray = [...paramArray]
+  copiedArray.push('foo')
+  return copiedArray;
+}
+
 function destructivelyAddElementToBeginningOfArray(paramArray, paramElement){
   paramArray.unshift(paramElement);
 
@@ -25,8 +31,4 @@ function destructivelyRemoveElementFromBeginningOfArray(paramArray){
 }
 
 
-function addElementToEndOfArray(paramArray, paramIndex){
-  copiedArray = [...paramArray]
-  copiedArray.push('foo')
-  return copiedArray;
-}
+
