@@ -23,5 +23,7 @@ function addElementToEndOfArray(paramArray, paramIndex){
 }
 
 function addElementToEndOfArray(paramArray, paramIndex){
-  return paramArray;
+  copiedArray = [...paramArray]
+  copiedArray.push()
+  return copiedArray;
 }
