@@ -8,16 +8,20 @@ function addElementToBeginningOfArray(paramArray, paramElement){
   return copiedArray;
 }
 
-
 function destructivelyAddElementToBeginningOfArray(paramArray, paramElement){
   paramArray.unshift(paramElement);
 
   return paramArray;
 }
 
-
 function accessElementInArray(paramArray, paramIndex){
-
-
   return paramArray[paramIndex];
+}
+
+function addElementToEndOfArray(paramArray, paramIndex){
+  return paramArray;
+}
+
+function addElementToEndOfArray(paramArray, paramIndex){
+  return paramArray;
 }
