@@ -18,9 +18,7 @@ function accessElementInArray(paramArray, paramIndex){
   return paramArray[paramIndex];
 }
 
-function addElementToEndOfArray(paramArray, paramIndex){
-  return paramArray;
-}
+
 
 function addElementToEndOfArray(paramArray, paramIndex){
   copiedArray = [...paramArray]
