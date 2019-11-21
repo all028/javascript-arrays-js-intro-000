@@ -34,3 +34,9 @@ function destructivelyAddElementToEndOfArray(paramArray){
  paramArray.push('foo');
   return paramArray;
 }
+
+function removeElementFromBeginningOfArray(paramArray){
+  copyArray = [...paramArray]
+  copyArray.shift();
+  return copyArray;
+}
